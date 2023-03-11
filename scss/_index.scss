@@ -88,4 +88,10 @@ footer {
   text-align: center;
   flex-wrap: wrap;
   background-color: #f4d7a8;
+  .p-footer {
+    font-family: $texto;
+  }
+}
+.home-title {
+  font-size: 5rem;
 }
