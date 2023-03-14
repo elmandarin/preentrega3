@@ -11763,13 +11763,64 @@ section .info {
   text-align: center;
 }
 
+section .donde {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  list-style: none;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 5%;
+}
+
+.mapa {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 8%;
+}
+
+.cuestion {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 33% 33% auto;
+  grid-template-areas: "forma" "medio" "cuestionario";
+}
+
+.forma {
+  list-style: none;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 5%;
+  grid-area: forma;
+}
+
+.medio {
+  margin: 5%;
+  background-position: center;
+  grid-area: medio;
+  transform: rotate(360deg);
+}
+
+.cuestionario {
+  margin: 5%;
+  grid-area: cuestionario;
+}
+
 h1, .h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   list-style: none;
   text-align: center;
   margin: 5%;
   background: rgb(242, 80, 127);
-  background: linear-gradient(0deg, rgba(242, 80, 127, 0.0900735294) 0%, rgb(253, 187, 45) 100%);
+  background: linear-gradient(0deg, rgba(242, 80, 127, 0.0900735294) 0%, rgb(236, 190, 92) 100%);
 }
 
 .h3 {

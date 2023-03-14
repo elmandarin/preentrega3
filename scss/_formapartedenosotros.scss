@@ -1,0 +1,30 @@
+.cuestion {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 50% 50%;
+  grid-template-columns: 33% 33% auto;
+  grid-template-areas:
+    "forma"
+    "medio"
+    "cuestionario";
+}
+.forma {
+  list-style: none;
+  text-align: center;
+  font-size: 200%;
+  margin-top: 5%;
+  grid-area: forma;
+}
+.medio {
+  margin: 5%;
+  background-position: center;
+  grid-area: medio;
+  transform: rotate(360deg);
+}
+.cuestionario {
+  margin: 5%;
+  grid-area: cuestionario;
+}
