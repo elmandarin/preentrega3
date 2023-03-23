@@ -11821,4 +11821,12 @@ h1, .h1 {
   max-width: 1rem;
 }
 
+.card-img-top {
+  height: 350px;
+}
+
+h3, .h3 {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */
