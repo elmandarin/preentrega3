@@ -95,3 +95,10 @@ footer {
 .home-title {
   font-size: 5rem;
 }
+/*imagenes de index*/
+.img-menu-index-izq {
+  transition: transform 0.8s ease-in-out;
+  &:hover {
+    transform: scale(1.08) rotate(-2deg);
+  }
+}

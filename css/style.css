@@ -11707,6 +11707,14 @@ footer .p-footer {
   font-size: 5rem;
 }
 
+/*imagenes de index*/
+.img-menu-index-izq {
+  transition: transform 0.8s ease-in-out;
+}
+.img-menu-index-izq:hover {
+  transform: scale(1.08) rotate(-2deg);
+}
+
 * {
   box-sizing: border-box;
 }
