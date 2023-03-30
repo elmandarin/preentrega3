@@ -11702,6 +11702,10 @@ footer {
 footer .p-footer {
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+footer .iconos {
+  font-size: 2rem;
+  border-color: #724803;
+}
 
 .home-title {
   font-size: 5rem;
